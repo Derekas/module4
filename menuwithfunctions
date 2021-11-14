@@ -51,13 +51,15 @@ def opcion6():
         print("El numero de veces que se ha encontrado el numero es: ",numeros.count(numero6))
 
 def opcion7(numero7):
-        index=0
-        for i in range(len(numeros)):
-            if numeros[i]==numero7:
-                index+=1
-                return index
-            else:
-                return False
+    ilist=[]
+    index=0
+    for i in range(len(numeros)):
+        index=ilist
+        if numeros[i]==numero7:
+            index+=1
+            return index
+        else:
+            return False
 opcion=0
 
 def opcion8():
